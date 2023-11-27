@@ -1,12 +1,12 @@
 import Card from "./Cards";
-import SideComponents from "./SideComponents";
+import SideComponent from "./SideComponents";
 
 export default function MainView() {
   return (
     <>
-      <div>
-        <SideComponents />
-        {/* <Card /> */}
+      <div className="flex justify-between ">
+        <SideComponent />
+        <Card />
       </div>
     </>
   );

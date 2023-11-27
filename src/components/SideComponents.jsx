@@ -1,6 +1,6 @@
 // this will be imported to MainView
 
-export default function SideComponents() {
+export default function SideComponent() {
   return (
     <>
       <div className="rounded-md bg-jasper p-5 m-5 w-1/5 shadow-sm">
@@ -46,12 +46,14 @@ export default function SideComponents() {
   );
 }
 
-//   class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
-
-// checkbox component:
-{
-  /* <label>
-<input type="checkbox" id="VkvxHsg4bDQunS7b_Laravel" /> list item
-</label>
-<br /> */
+// this is the checkbox component that can be used.
+export function Checkbox() {
+  return (
+    <>
+      <label>
+        <input type="checkbox" id="VkvxHsg4bDQunS7b_Laravel" /> item
+      </label>
+      <br />
+    </>
+  );
 }
