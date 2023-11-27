@@ -3,7 +3,7 @@
 export default function SideComponent() {
   return (
     <>
-      <div className="rounded-md bg-jasper p-5 m-5 w-1/5 shadow-sm">
+      <div className="rounded-md bg-jasper p-5 m-5 w-1/5 h-1/2 shadow-sm">
         <p className="text-xl leading-10">kind</p>
         <ul>
           <label>
