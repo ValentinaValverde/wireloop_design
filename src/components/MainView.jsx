@@ -6,7 +6,7 @@ export default function MainView() {
     <>
       <div>
         <SideComponents />
-        <Card />
+        {/* <Card /> */}
       </div>
     </>
   );
