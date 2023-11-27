@@ -1,8 +1,15 @@
 export default function SplashPage() {
   return (
     <>
-      <p>welcome to</p>
-      <p>wireloop</p>
+      <div className="flex justify-between items-center flex-wrap bg-slate-500 h-96">
+        <div className="p-10 w-1/2 max-w-full">
+          <p className="leading-10">stay in the loop with</p>
+          <p className="text-7xl">wireloop_</p>
+        </div>
+        <div className="w-1/2 flex justify-center">
+          <p>img here</p>
+        </div>
+      </div>
     </>
   );
 }

@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* background-color: #171738; */
   font-family: monospace;
+  background-color: #dbd3d8;
 }
-
-/* HEADER */
