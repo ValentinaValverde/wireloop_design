@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import SplashPage from "./components/SplashPage";
-import Input from "./components/Input";
 import MainView from "./components/MainView";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <>
       <Header />
       <SplashPage />
-      <Input />
       <MainView />
     </>
   );
