@@ -3,7 +3,7 @@ import SearchBar from "./Input";
 export default function Header() {
   return (
     <>
-      <div className="sticky top-0 p-5 w-full flex justify-between items-center bg-black text-white">
+      <div className="sticky top-0 p-5 w-full flex justify-between items-center bg-black text-white z-20">
         <div className="flex items-center">
           <p>wireloop_</p>
           <SearchBar />
