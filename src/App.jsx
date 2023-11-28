@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import SplashPage from "./components/SplashPage";
 import SelectionSection from "./components/SelectionSection";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <SplashPage />
       <SelectionSection />
+      <MainContent />
     </>
   );
 }
