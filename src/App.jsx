@@ -1,13 +1,13 @@
 import Header from "./components/Header";
 import SplashPage from "./components/SplashPage";
-import MainView from "./components/MainView";
+import SelectionSection from "./components/SelectionSection";
 
 function App() {
   return (
     <>
       <Header />
       <SplashPage />
-      <MainView />
+      <SelectionSection />
     </>
   );
 }

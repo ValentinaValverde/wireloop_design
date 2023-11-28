@@ -1,13 +1,3 @@
-export default function MainView() {
-  return (
-    <>
-      <div className="flex justify-between ">
-        <p>something goes here... </p>
-      </div>
-    </>
-  );
-}
-
 export function SingleCard() {
   return (
     <>
