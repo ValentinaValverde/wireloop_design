@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         jasper: "#C05746",
         flame: "#D36135",
+        pinkish: "#DBD3D8",
+        grayish: "#eff1f3",
       },
     },
   },
