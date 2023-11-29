@@ -1,36 +1,16 @@
-import { PeopleCards } from "./Cards";
-import Cards from "./Cards";
+import { LocationBar } from "./Input";
+import EventGroupSelection from "./Selections";
+import { PeopleSelection } from "./Selections";
 
 export default function MainContent() {
   return (
     <>
-      <div className="flex flex-wrap justify-center m-5">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
+      <div className="flex flex-wrap justify-center items-center m-5 text-3xl">
+        <span>find your next event in </span>
+        <LocationBar />
       </div>
-      <button>See More</button>
-    </>
-  );
-}
-
-export function PeopleSection() {
-  return (
-    <>
-      <div className="flex flex-wrap justify-center m-5">
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-      </div>
-      <button>See More</button>
+      <EventGroupSelection />
+      <PeopleSelection />
     </>
   );
 }
