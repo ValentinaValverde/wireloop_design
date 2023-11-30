@@ -73,18 +73,18 @@ export function PeopleSection() {
 export function FindByCategory() {
   return (
     <>
-      {/* <p className="text-2xl m-5 text-center">Find By Interest</p>
-      <div className="flex flex-wrap justify-around p-5 text-center bg-grayish">
-        <TopicButton />
-        <TopicButton />
-        <TopicButton />
-        <TopicButton />
-        <TopicButton />
-      </div> */}
-
-      <p className="text-2xl m-5 text-center">Find By Interest</p>
-      <div className="flex flex-wrap p-5 text-center bg-grayish">
-        <Tag />
+      <div className="bg-grayish px-40 py-12">
+        <p className="text-2xl m-5 text-center">Find By Interest</p>
+        <div className="flex flex-wrap justify-center">
+          <Tag />
+          <Tag />
+          <Tag />
+          <Tag />
+          <Tag />
+          <Tag />
+          <Tag />
+          <Tag />
+        </div>
       </div>
     </>
   );
@@ -93,7 +93,6 @@ export function FindByCategory() {
 export function InterestSection() {
   return (
     <>
-      <p>Popular Interests </p>
       <div className="flex flex-wrap justify-center">
         {/* all of the cards are added here like this to fill space */}
         {/* in reality there should only be one card element here */}

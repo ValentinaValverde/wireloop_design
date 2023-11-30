@@ -35,7 +35,9 @@ export function TopicButton() {
 export function Tag() {
   return (
     <>
-      <p className="bg-black border">tag</p>
+      <button className="bg-black text-white rounded-full p-3 px-20 m-3">
+        Interest_Tag
+      </button>
     </>
   );
 }
