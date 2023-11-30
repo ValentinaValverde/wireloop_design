@@ -18,7 +18,7 @@ export default function Cards() {
 export function PeopleCards() {
   return (
     <>
-      <div className="bg-grayish w-1/5 h-auto m-5 flex flex-col text-center rounded-full rounded-b-md hover:scale-105 hover:cursor-pointer hover:shadow-lg duration-300">
+      <div className="bg-white w-1/5 h-auto m-5 flex flex-col text-center rounded-full rounded-b-md hover:scale-105 hover:cursor-pointer hover:shadow-lg duration-300">
         <img
           className="w-auto m-5 rounded-full rounded-b-md"
           src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg"

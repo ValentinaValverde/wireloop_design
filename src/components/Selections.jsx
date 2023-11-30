@@ -1,3 +1,6 @@
+// This file contains the sections that will be imported into MainContent.jsx
+// Included: EventGroupSelection, PeopleSelection, and FindByCategory
+
 import Cards from "./Cards";
 import { PeopleCards } from "./Cards";
 
@@ -16,7 +19,7 @@ export default function EventGroupSelection() {
         </p>
       </div>
 
-      <div className="mb-20 flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center">
         {/* all of the cards are added here like this to fill space */}
         {/* in reality there should only be one card element here */}
         <Cards />
@@ -26,6 +29,7 @@ export default function EventGroupSelection() {
         <Cards />
         <Cards />
       </div>
+      <SeeMoreButton />
     </>
   );
 }
@@ -33,21 +37,45 @@ export default function EventGroupSelection() {
 export function PeopleSelection() {
   return (
     <>
-      {/* <div className="bg-white p-5 m-40 "> */}
-      <p className="text-xl ml-44">People</p>
-      <div className="m-20 mt-10 flex flex-wrap justify-center">
-        {/* all of the cards are added here like this to fill space */}
-        {/* in reality there should only be one card element here */}
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
-        <PeopleCards />
+      <div className="bg-grayish p-5 m-40 rounded-lg">
+        <p className="text-3xl m-10">People</p>
+        <div className="flex flex-wrap justify-center">
+          {/* all of the cards are added here like this to fill space */}
+          {/* in reality there should only be one card element here */}
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+          <PeopleCards />
+        </div>
+        <SeeMoreButton />
       </div>
-      {/* </div> */}
+    </>
+  );
+}
+
+export function FindByCategory() {
+  return (
+    <>
+      <p>find by category</p>
+      <div>
+        <p>some stuff here hehe</p>
+      </div>
+    </>
+  );
+}
+
+export function SeeMoreButton() {
+  return (
+    <>
+      <div className="flex justify-center">
+        <button className="border-solid border-black border-2 rounded-md p-2 m-5 w-6/12 bg-jasper">
+          See More
+        </button>
+      </div>
     </>
   );
 }
