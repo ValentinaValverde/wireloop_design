@@ -14,7 +14,7 @@ export function TopicButton() {
   return (
     <>
       <div className="flex flex-col">
-        <button className="bg-white p-5 m-5 rounded-full ">
+        <button className="bg-white p-5 m-5 rounded-full hover:shadow-lg duration-200">
           {/* The thought process is that the icon related to the */}
           {/* topic they like will appear in the button */}
           <svg
@@ -28,6 +28,14 @@ export function TopicButton() {
         </button>
         <p>interest</p>
       </div>
+    </>
+  );
+}
+
+export function Tag() {
+  return (
+    <>
+      <p className="bg-black border">tag</p>
     </>
   );
 }

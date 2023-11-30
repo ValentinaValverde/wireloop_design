@@ -1,10 +1,9 @@
 // This file contains the sections that will be imported into MainContent.jsx
 // Included: SearchByLocation, EventGroupSelection, PeopleSelection, and FindByCategory
 
-import Cards from "./Cards";
-import { PeopleCards } from "./Cards";
+import { Cards, PeopleCards } from "./Cards";
 import { LocationBar } from "./Input";
-import { SeeMoreButton, TopicButton } from "./Buttons";
+import { SeeMoreButton, TopicButton, Tag } from "./Buttons";
 
 export function SearchByLocation() {
   return (
@@ -74,15 +73,36 @@ export function PeopleSection() {
 export function FindByCategory() {
   return (
     <>
-      <div className="">
-        <p className="text-2xl m-5 text-center">Find By Interest</p>
-        <div className="flex flex-wrap justify-around p-5 rounded-lg text-center bg-grayish">
-          <TopicButton />
-          <TopicButton />
-          <TopicButton />
-          <TopicButton />
-          <TopicButton />
-        </div>
+      {/* <p className="text-2xl m-5 text-center">Find By Interest</p>
+      <div className="flex flex-wrap justify-around p-5 text-center bg-grayish">
+        <TopicButton />
+        <TopicButton />
+        <TopicButton />
+        <TopicButton />
+        <TopicButton />
+      </div> */}
+
+      <p className="text-2xl m-5 text-center">Find By Interest</p>
+      <div className="flex flex-wrap p-5 text-center bg-grayish">
+        <Tag />
+      </div>
+    </>
+  );
+}
+
+export function InterestSection() {
+  return (
+    <>
+      <p>Popular Interests </p>
+      <div className="flex flex-wrap justify-center">
+        {/* all of the cards are added here like this to fill space */}
+        {/* in reality there should only be one card element here */}
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
       </div>
     </>
   );

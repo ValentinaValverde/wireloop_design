@@ -3,6 +3,7 @@ import {
   EventGroupSection,
   PeopleSection,
   FindByCategory,
+  InterestSection,
 } from "./Sections";
 
 export default function MainContent() {
@@ -12,6 +13,7 @@ export default function MainContent() {
       <EventGroupSection />
       <PeopleSection />
       <FindByCategory />
+      <InterestSection />
     </>
   );
 }

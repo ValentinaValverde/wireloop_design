@@ -1,4 +1,4 @@
-export default function Cards() {
+export function Cards() {
   return (
     <>
       <div className="w-1/4 h-1/2 m-5 flex flex-col text-center bg-white rounded-md hover:scale-105 hover:cursor-pointer hover:shadow-lg duration-300">
