@@ -1,16 +1,17 @@
-import { LocationBar } from "./Input";
-import EventGroupSelection from "./Selections";
-import { PeopleSelection } from "./Selections";
+import {
+  SearchByLocation,
+  EventGroupSection,
+  PeopleSection,
+  FindByCategory,
+} from "./Sections";
 
 export default function MainContent() {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center m-5 text-3xl">
-        <span>find your next event in </span>
-        <LocationBar />
-      </div>
-      <EventGroupSelection />
-      <PeopleSelection />
+      <SearchByLocation />
+      <EventGroupSection />
+      <PeopleSection />
+      <FindByCategory />
     </>
   );
 }

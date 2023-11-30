@@ -1,10 +1,23 @@
 // This file contains the sections that will be imported into MainContent.jsx
-// Included: EventGroupSelection, PeopleSelection, and FindByCategory
+// Included: SearchByLocation, EventGroupSelection, PeopleSelection, and FindByCategory
 
 import Cards from "./Cards";
 import { PeopleCards } from "./Cards";
+import { LocationBar } from "./Input";
+import { SeeMoreButton, TopicButton } from "./Buttons";
 
-export default function EventGroupSelection() {
+export function SearchByLocation() {
+  return (
+    <>
+      <div className="flex flex-wrap justify-center items-center m-5 text-3xl">
+        <span>find your next event in </span>
+        <LocationBar />
+      </div>
+    </>
+  );
+}
+
+export function EventGroupSection() {
   return (
     <>
       <div className="ml-44 flex flex-row text-xl">
@@ -29,12 +42,13 @@ export default function EventGroupSelection() {
         <Cards />
         <Cards />
       </div>
+
       <SeeMoreButton />
     </>
   );
 }
 
-export function PeopleSelection() {
+export function PeopleSection() {
   return (
     <>
       <div className="bg-grayish p-5 m-40 rounded-lg">
@@ -60,21 +74,15 @@ export function PeopleSelection() {
 export function FindByCategory() {
   return (
     <>
-      <p>find by category</p>
-      <div>
-        <p>some stuff here hehe</p>
-      </div>
-    </>
-  );
-}
-
-export function SeeMoreButton() {
-  return (
-    <>
-      <div className="flex justify-center">
-        <button className="border-solid border-black border-2 rounded-md p-2 m-5 w-6/12 bg-jasper">
-          See More
-        </button>
+      <div className="">
+        <p className="text-2xl m-5 text-center">Find By Interest</p>
+        <div className="flex flex-wrap justify-around p-5 rounded-lg text-center bg-grayish">
+          <TopicButton />
+          <TopicButton />
+          <TopicButton />
+          <TopicButton />
+          <TopicButton />
+        </div>
       </div>
     </>
   );
