@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import SplashPage from "./components/SplashPage";
 import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <SplashPage />
       <MainContent />
+      <Footer />
     </>
   );
 }

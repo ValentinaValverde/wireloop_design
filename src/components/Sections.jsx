@@ -1,5 +1,5 @@
 // This file contains the sections that will be imported into MainContent.jsx
-// Included: SearchByLocation, EventGroupSelection, PeopleSelection, and FindByCategory
+// Includes: SearchByLocation, EventGroupSelection, PeopleSelection, FindByCategory and InterestSection
 
 import { Cards, PeopleCards } from "./Cards";
 import { LocationBar } from "./Input";
@@ -103,6 +103,7 @@ export function InterestSection() {
         <Cards />
         <Cards />
       </div>
+      <SeeMoreButton />
     </>
   );
 }

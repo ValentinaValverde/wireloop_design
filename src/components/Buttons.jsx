@@ -2,7 +2,7 @@ export function SeeMoreButton() {
   return (
     <>
       <div className="flex justify-center">
-        <button className="border-solid border-black border-2 rounded-md p-2 m-5 w-1/4 bg-jasper">
+        <button className="border-solid border-black border-2 rounded-full p-2 m-5 w-1/4 bg-jasper">
           See More
         </button>
       </div>
@@ -35,7 +35,7 @@ export function TopicButton() {
 export function Tag() {
   return (
     <>
-      <button className="bg-black text-white rounded-full p-3 px-20 m-3">
+      <button className="bg-black text-white rounded-full p-3 px-20 m-3 ">
         Interest_Tag
       </button>
     </>
