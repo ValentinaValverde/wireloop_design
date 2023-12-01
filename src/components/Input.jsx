@@ -5,7 +5,7 @@ export default function SearchBar() {
         <input
           type="text"
           placeholder="Search"
-          class="mx-5 p-3 border shadow-sm block pr-10 sm:text-sm border-gray-300 rounded-full"
+          class="mx-5 p-3 border shadow-sm block pr-10 sm:text-sm border-gray-300 rounded-full text-black"
         />
       </div>
     </>
