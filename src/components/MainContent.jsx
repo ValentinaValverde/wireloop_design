@@ -9,11 +9,11 @@ import {
 export default function MainContent() {
   return (
     <>
-      <SearchByLocation />
+      {/* <SearchByLocation />
       <EventGroupSection />
       <PeopleSection />
       <FindByCategory />
-      <InterestSection />
+      <InterestSection /> */}
     </>
   );
 }
